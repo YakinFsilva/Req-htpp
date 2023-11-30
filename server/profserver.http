@@ -1,0 +1,27 @@
+GET http://192.168.68.154:3000/produtos
+
+###
+
+GET http://192.168.68.154:3000/produtos/1
+
+###
+
+POST http://192.168.68.154:3000/produtos
+content-type: application/json
+
+{
+    "name": ""
+
+}
+
+###
+PUT http://192.168.68.154:3000/produtos/63
+content-type: application/json
+
+{
+    "name": "Altereado"
+
+}
+###
+DELETE http://192.168.68.154:3000/produtos/59
+
